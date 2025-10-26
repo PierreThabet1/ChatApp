@@ -55,7 +55,7 @@ def home():
 
     return render_template("home.html")
 
-#5
+#6
 
 if __name__ == '__main__':
     socketio.run(app, debug=True)
